@@ -5,6 +5,7 @@ import { IoIosSearch } from "react-icons/io";
 
 const Navbar = () => {
   return (
+    // Navbar component
     <div>
       <div class="w-full h-2 bg-gradient-to-r from-orange-500 via-red-600 to-pink-500 flex items-center justify-center">
         </div>
