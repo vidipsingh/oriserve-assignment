@@ -7,31 +7,31 @@ const Footer = () => {
     <>
     <div className='flex justify-around w-full px-6 py-14 border-t-2 mb-8'>
       <div>
-        <img src={npm_logo} alt="" className='w-16 h-w-16' />
-        <img src={github} alt=""  className='w-16 h-w-16'/>
+        <img src={npm_logo} alt="" className='w-16 h-w-16 cursor-pointer' />
+        <img src={github} alt=""  className='w-16 h-w-16 cursor-pointer'/>
       </div>
 
       <div className='w-64 text-lg'>
         <h1 className='font-bold mb-4'>Support</h1>
-        <h1 className='mb-4'>Help</h1>
-        <h1 className='mb-4'>Advisories</h1>
-        <h1 className='mb-4'>Status</h1>
-        <h1 className='mb-4'>Contact npm</h1>
+        <h1 className='mb-4 cursor-pointer'>Help</h1>
+        <h1 className='mb-4 cursor-pointer'>Advisories</h1>
+        <h1 className='mb-4 cursor-pointer'>Status</h1>
+        <h1 className='mb-4 cursor-pointer'>Contact npm</h1>
       </div>
 
       <div className='w-64 text-lg'>
         <h1 className='font-bold mb-4'>Company</h1>
-        <h1 className='mb-4'>About</h1>
-        <h1 className='mb-4'>Blog</h1>
-        <h1 className='mb-4'>Press</h1>
+        <h1 className='mb-4 cursor-pointer'>About</h1>
+        <h1 className='mb-4 cursor-pointer'>Blog</h1>
+        <h1 className='mb-4 cursor-pointer'>Press</h1>
       </div>
 
       <div className=' w-64 text-lg'>
         <h1 className='font-bold mb-4'>Terms & Policies</h1>
-        <h1 className='mb-4'>Policies</h1>
-        <h1 className='mb-4'>Terms of Use</h1>
-        <h1 className='mb-4'>Code of Conduct</h1>
-        <h1 className='mb-4'>Privacy</h1>
+        <h1 className='mb-4 cursor-pointer'>Policies</h1>
+        <h1 className='mb-4 cursor-pointer'>Terms of Use</h1>
+        <h1 className='mb-4 cursor-pointer'>Code of Conduct</h1>
+        <h1 className='mb-4 cursor-pointer'>Privacy</h1>
       </div>
     </div>
 
